@@ -3,11 +3,11 @@ x = 3.5
 y = 6
 z = -1.4
 //ข้อ 2 สร้างตัวแปร w
-w = 5 - x + (2*y) - (3/z+2)
+w = 5 - x + (2*y) - (3/(z+2))
 //ข้อ 3 แก้ไขค่าตัวแปร x
 x = "Lord of the Ring"
 //ข้อ 4 แสดงผลทางจอภาพ
-printf("\tNew movie: %s. Number of viewers: %.1f million\n.",x,w)
+printf("New movie: %s. Number of viewers: %.1f million\n",x,w)
 // ข้อ 5 ลบค่าตัวแปร x
 clear x 
 // ข้อ 6 แสดงค่าของผลลัพธ์
@@ -21,4 +21,3 @@ p = (y^3 >= (2^z)-y)
 q = (w+z == (-3*z)/2)
 // ข้อ 10 หาค่าตรรกะของ p ^ not(q)
 disp(p & q)
-
